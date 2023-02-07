@@ -7,24 +7,25 @@ body {
     font-family: 'Catamaran', sans-serif;
 }
 
-.imgtitulo {
-    width: 516px;
-    height: 598;
-    width: 586;
-
+img {
+    display: block;
+    margin: auto;
 }
 
-.bottones{
-    text-align: center;
-}
-
-.buttonSobre{    
+.uno {
+    width: 1000px;
+    height: 700px;
     background-color: rgba(233, 208, 177, 0.705);
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 black;
-    width: 1000px;
-    background-size: 100% 100%;
-    position: relative;
-    height: 500px;
-    
+    box-shadow: 0px 4px 8px 4px black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tipograft {
+    font-family: serif;
+    color: black;
+    text-align: center;
+    margin: 10px 8px 8px 10px;
 }
