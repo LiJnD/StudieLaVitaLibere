@@ -8,10 +8,22 @@ body {
 }
 
 .imgtitulo {
-    text-align: center;
     width: 516px;
-    display: block;
     height: 598;
     width: 586;
 
+}
+
+.bottones{
+    text-align: center;
+}
+
+.buttonSobre{    
+    background-color: rgba(233, 208, 177, 0.705);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 1000px;
+    position: relative;
+    height: 500px;
+    left: 500px;
 }
