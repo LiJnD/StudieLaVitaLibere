@@ -29,3 +29,50 @@ img {
     text-align: center;
     margin: 10px 8px 8px 10px;
 }
+
+.Btn-modelo{
+    display: inline-block;
+    position: relative;
+    color: black;
+    background: #ffe4c45e;
+    font-family: inherit;
+    font-family: 500;
+    font-size: 17px;
+    padding: 16px 144px;
+    margin: 20px;
+    border: 2px solid #000000be;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+.Btn-modelo:before{
+content: "";
+position: absolute;
+background: #e6e319b4;
+height: 250px;
+width: 300px;
+border-radius: 50%;
+z-index: 1;
+}
+
+.Btn-modelo:hover{
+color: rgb(226, 19, 175);
+}
+
+.Btn-modelo:before{
+    top: 100%;
+    left: 100%;
+    transition: 0.8s;
+}
+
+.Btn-modelo:hover:before{
+    top: -30%;
+    left: -30%;
+}
+
+.button:active:before{
+    background: #b4cf16;
+    transition: 0s
+}
